@@ -1,0 +1,484 @@
+/*Settings
+Tools
+Generic
+Elements
+Objects
+Components
+Utilities*/
+
+/* ---------------Settings Menu--------------- */
+
+:root {
+    --heading-font-family: 'Poppins', serif;
+    --heading-background-color: #5956E9;
+    margin: 0px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+
+    width: 80vw;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
+
+    color: #4c4848;
+    box-shadow: 0px 3px 99px #5766F929;
+    font-size: 16px;
+    z-index: 5;
+    font-family: var(--heading-font-family);
+}
+
+/* ---------------Generic Menu--------------- */
+
+a{text-decoration: none;
+    color: inherit;
+    text-align: center;
+    font-family: var(--heading-font-family);
+    font-weight: 600;
+    transition: .5s;
+    z-index: 5;
+}
+
+ul,
+li{
+    list-style: none;
+    z-index: 5;
+    background-color: white;
+}
+
+li{
+    padding: 0px 25px;
+    z-index: 5;
+    background-color: white;
+}
+
+/* ---------------Elements Menu--------------- */
+
+.menu{
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    background-color: white;
+}
+
+hr{
+    width: 22px;
+    height: 4px;
+    background-color:#5956E9;
+    margin: 6px 0px 0px 0px;
+    z-index: 5;
+}
+
+/* ---------------Elements--------------- */
+
+.fit_image{
+    top: -425px;
+    left: 555px;
+    width: 900px;
+    height: 900px;
+    position: relative;
+
+    background: transparent  0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: -5;
+}
+
+h1{
+    top: 155px;
+    left: 125px;
+    width: 550px;
+
+    text-align: left;
+    font: normal normal 600 60px/80px Poppins;
+    letter-spacing: 0px;
+    color: #27282E;
+    opacity: 1;
+    position: relative;
+}
+
+h2{
+    top: -80px;
+    left: 125px;
+    width: 229px;
+    height: 28px;
+
+    text-align: left;
+    font: normal normal 600 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #27282E;
+    opacity: 1;
+    position: relative;
+}
+
+/* ---------------Elements Services --------------- */
+
+#back_rectangle{
+    top: -600px;
+    left: -50px;
+    width: 1920px;
+    height: 1112px;
+    position: relative;
+
+    background: #27282E 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: -10;
+}
+
+h3{
+    top: 755px;
+    left: 125px;
+    width: 750px;
+
+    text-align: left;
+    position: absolute;
+    text-align: left;
+    font: normal normal 600 60px/80px Poppins;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+}
+
+h4{
+    top: 970px;
+    left: 125px;
+    width: 580px;
+
+    text-align: left;
+    position: absolute;
+    text-align: left;
+    font: normal normal normal 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #949497;
+    opacity: 1;
+}
+
+#container{
+    top: 1100px;
+    left: 90px;
+
+    display: flex;
+    width: 500px;
+    z-index: 6;
+    position: absolute;
+    flex-grow: 3;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.box_chirurgie{
+    text-align: left;
+    opacity: 1;
+    margin: 130px;
+}
+
+h5{
+    text-align: left;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+p{
+    top: 400px;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #949497;
+    opacity: 1;
+    position: absolute; 
+    width: 200px;
+    z-index: 7;
+}
+
+.box1{
+    width: 170px;
+    
+}
+.box_maternite{
+    text-align: center;
+    margin: 130px;
+}
+
+.box2{
+    width: 170px;
+}
+
+.box_gynecologie{
+    text-align: left;
+    margin: 130px;
+}
+
+.box3{
+    width: 170px;
+}
+
+/* ---------------Elements Newsletter --------------- */
+
+#back_rectangle_newsletter{
+        top: -600px;
+        left: -50px;
+        width: 1920px;
+        height: 1112px;
+        position: relative;
+    
+        background: #ECF2F6 0% 0% no-repeat padding-box;
+        opacity: 1;
+        z-index: -12;
+}
+
+#rond_back{
+    top: 2000px;
+    left: 400px;
+    width: 623px;
+    height: 623px;
+    background: #F2F6F9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 99px #5766F929;
+    opacity: 1;
+    border-radius: 1000px;
+    z-index: 2;
+    position: absolute;
+    background-color: #F2F6F9;
+}
+
+#rond_top{
+    top: 2060px;
+    left: 460px;
+    width: 505px;
+    height: 505px;
+    background: #F2F6F9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 99px #5766F929;
+    opacity: 1;
+    border-radius: 1000px;
+    z-index: 3;
+    position: absolute;
+    background-color: #F2F6F9;
+}
+
+.photo_newsletter{
+    top: 2125px;
+    margin-left: 71vh;
+    width: 377px;
+    height: 373px;
+    position: absolute;
+    z-index: 5;
+}
+
+h6{
+    top: 2600px;
+    margin-left: 68vh;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #211F1E;
+    opacity: 1;
+    text-align: center;
+    position: absolute; 
+}
+
+#form_input{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color:white; 
+    z-index: 5; 
+
+    top: -773px;
+    margin-left: 68vh;
+    width: 384px;
+    height: 75px;
+    box-shadow: 0px 3px 99px #5766F929;
+    position: relative;
+}
+.asterisk{
+    width: 15px;
+    position: absolute;
+    top: 386vh;
+    margin-left: -27vh;
+    z-index: 40;
+}
+
+input{
+    top: 2800px;
+    margin-left: 72vh;
+    display: block;
+    position: absolute;
+    font-family: Poppins;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    z-index: 20;
+    color: #9BA2B0;
+}
+
+input:required textarea:required{
+    background:none center;
+    margin-top: -60px;
+    display: block;
+    border: white;
+    color: #9BA2B0;
+}
+
+input:focus:invalid textarea:focus:invalid{
+    border-color: white;
+    background: none;
+    display: block;
+    border: white;
+    color: #9BA2B0;
+}
+
+input:focus:valid textarea:focus:valid{
+    border-color:#65C93F;
+    background: none;
+    display: block;
+    border: white;
+    color: #9BA2B0;
+}
+
+/* ---------------Objects--------------- */
+
+.menu_logo{
+    font-family: var(--heading-font-family);
+    margin: auto;
+    z-index: 5;
+}
+
+
+/* ---------------Components--------------- */
+
+/* ---------------Utilities--------------- */
+
+main{
+    margin-bottom: 0px;
+}
+
+/* ---------------Settings Buttons--------------- */
+
+.subscribe_button{
+    text-align: center;
+    font-family: poppins;
+    font-weight: 500;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 7px;
+    background-color: #5956E9; 
+    z-index: 5; 
+
+    top: -836px;
+    margin-left: 102vh;
+    width: 160px;
+    height: 53px;
+    box-shadow: 0px 3px 99px #5766F929;
+    position: relative;
+}
+
+
+.styled {
+    font-family: poppins;
+    font-weight: 500;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #5956E9; 
+    z-index: 5; 
+
+    top: -750px;
+    left: 125px;
+    width: 197px;
+    height: 53px;
+    box-shadow: 0px 3px 99px #5766F929;
+    position: relative;
+}
+
+.styled:hover {
+    background-color: #738BFB;
+    z-index: 5;
+}
+
+.button_services{
+    font-family: poppins;
+    font-weight: 500;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #292A30;
+    border-radius: 7px;
+    background-color: white; 
+    z-index: 5; 
+    margin-top: 200px;
+    width: 170px;
+    height: 43px;
+    box-shadow: 0px 3px 99px #5766F929;
+    position: relative;
+}
+
+.button_services:hover {
+    background-color: #E4E4E4;
+    z-index: 5;
+}
+/* ---------------Menu Hidden --------------- */
+
+
+.menu_hidden_chirurgie,
+.menu_hidden_gynecologie,
+.menu_hidden_maternite{
+    display: none;
+
+    margin-left: -65px;
+    padding: 5px 0px;
+    margin-top: 26px;
+    border-radius: 0px 0px 20px 20px;
+
+    box-shadow: 0px 3px 99px #5766F929;
+    position: absolute;
+    z-index: 5;
+}
+
+.menu_hidden_chirurgie li,
+.menu_hidden_maternite li,
+.menu_hidden_gynecologie li{
+    margin: 20px;
+    z-index: 5;
+}
+
+.button_co_menu,
+.menu_logo{
+    margin: auto;
+    z-index: 5;
+}
+
+.menu_chirurgie:hover .menu_hidden_chirurgie,
+.menu_gynecologie:hover .menu_hidden_gynecologie,
+.menu_maternite:hover .menu_hidden_maternite{
+    display: block;
+    z-index: 5;
+
+}

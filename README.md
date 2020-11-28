@@ -1,4 +1,4 @@
-# Belvedere | Enora Guilleux | public
+# Belvedere | Enora Guilleux
  Architecture CSS et approche modulaire
 Le but de cet exercice est de mettre en pratique les propos ci-dessus en réalisant un page HTML liée à un fichier CSS dans laquelle nous afficherons des compostant en adoptant une approche atomic. Il faudra également penser aux éléments de base (ex: Titre, text, lien, image, etc...)
 
